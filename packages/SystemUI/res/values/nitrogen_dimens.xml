@@ -65,4 +65,6 @@
     <dimen name="opa_line_x_trans_ry">15dp</dimen>
     <dimen name="opa_line_y_translation">16dp</dimen>
 
+    <!-- Sets a custom extra padding for the QS icons and statusbar date -->
+    <dimen name="qs_items_padding">0dp</dimen>
 </resources>
