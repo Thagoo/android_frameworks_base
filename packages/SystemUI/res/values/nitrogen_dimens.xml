@@ -67,4 +67,7 @@
 
     <!-- Sets a custom extra padding for the QS icons and statusbar date -->
     <dimen name="qs_items_padding">0dp</dimen>
+   <!-- OmniStyle custom headers -->
+    <dimen name="qs_header_image_offset">0dp</dimen>
+    <dimen name="qs_header_image_side_margin">0dp</dimen> 
 </resources>
