@@ -60,6 +60,8 @@ LOCAL_REQUIRED_MODULES := \
 	FontSamsungOneSourceOverlay \
 	FontSonySketchSourceOverlay \
 	FontSurferSourceOverlay \
+	FontNokiaPureSourceOverlay \
+	FontFifa2018SourceOverlay \
 	IconPackCircularAndroidOverlay \
 	IconPackCircularPixelLauncherOverlay \
 	IconPackCircularPixelThemePickerOverlay \
