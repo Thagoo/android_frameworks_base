@@ -178,12 +178,7 @@
     <color name="logout_button_bg_color">#ccffffff</color>
 
     <!-- Color for the Assistant invocation lights -->
-    <color name="default_invocation_lights_color">#ffffffff</color>         <!-- white -->
-    <color name="edge_light_blue">#ff4185f4</color>
-    <color name="edge_light_green">#ff3aa853</color>
-    <color name="edge_light_red">#ffea4234</color>
-    <color name="edge_light_yellow">#fffbbc06</color>
-
+    <color name="default_invocation_lights_color">#ffffffff</color>         
     <!-- GM2 colors -->
     <color name="GM2_grey_50">#F8F9FA</color>
     <color name="GM2_grey_100">#F1F3F4</color>
@@ -208,4 +203,9 @@
 
     <color name="GM2_yellow_500">#FFFBBC04</color>
     <color name="GM2_green_500">#FF34A853</color>
+    <!-- Color for the Assistant invocation lights -->
+    <color name="edge_light_blue">#4185f4</color>
+    <color name="edge_light_green">#3aa853</color>
+    <color name="edge_light_red">#ea4234</color>
+    <color name="edge_light_yellow">#fbbc06</color>
 </resources>
