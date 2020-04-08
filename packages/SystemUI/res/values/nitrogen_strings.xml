@@ -105,4 +105,7 @@
     <string name="global_action_screenrecord">Screenrecord</string>
     <!-- Name of the battery status bar icon. -->
     <string name="status_bar_battery">Battery</string>
+   
+    <!-- Alerting notification header label -->
+    <string name="notification_section_header_alerting">Alerting notifications</string>
 </resources>
