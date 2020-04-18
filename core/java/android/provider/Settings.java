@@ -5125,6 +5125,14 @@ public final class Settings {
         private static final Validator STATUS_BAR_FILE_HEADER_IMAGE_VALIDATOR =
                 ANY_STRING_VALIDATOR;
 
+	/**
+         * Controls whether to show R style notification headers
+         * @hide
+         */
+        public static final String NOTIFICATION_HEADERS = "notification_headers";
+
+        private static final Validator NOTIFICATION_HEADERS_VALIDATOR = BOOLEAN_VALIDATOR;    
+
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
          * keys and easy to update.
@@ -5247,7 +5255,8 @@ public final class Settings {
             STATUS_BAR_DAYLIGHT_HEADER_PACK,
             STATUS_BAR_CUSTOM_HEADER_PROVIDER,
             STATUS_BAR_CUSTOM_HEADER_IMAGE,
-            STATUS_BAR_FILE_HEADER_IMAGE
+            STATUS_BAR_FILE_HEADER_IMAGE,
+            NOTIFICATION_HEADERS
         };
 
         /**
@@ -5591,6 +5600,7 @@ public final class Settings {
                     STATUS_BAR_CUSTOM_HEADER_IMAGE_VALIDATOR);
             VALIDATORS.put(STATUS_BAR_FILE_HEADER_IMAGE,
                     STATUS_BAR_FILE_HEADER_IMAGE_VALIDATOR);
+            VALIDATORS.put(NOTIFICATION_HEADERS, NOTIFICATION_HEADERS_VALIDATOR);
         }
 
         /**
