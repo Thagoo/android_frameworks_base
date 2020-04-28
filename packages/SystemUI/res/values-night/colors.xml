@@ -90,6 +90,4 @@
 
     <color name="ringer_icon_mute">@android:color/white</color>
 
-    <color name="qs_drag_handle_color">#66555555</color>
-
 </resources>
