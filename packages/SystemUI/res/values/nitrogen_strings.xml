@@ -108,4 +108,6 @@
    
     <!-- Alerting notification header label -->
     <string name="notification_section_header_alerting">Alerting notifications</string>
+
+    <string name="status_bar_volte">VoLTE</string>
 </resources>
