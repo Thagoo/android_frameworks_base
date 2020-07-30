@@ -1183,4 +1183,8 @@
     <dimen name="volume_dialog_ringer_spacing">4dip</dimen>
     <dimen name="volume_dialog_ringer_height">38dip</dimen>
 
+    <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
+    <dimen name="config_rounded_mask_size">@*android:dimen/rounded_corner_radius</dimen>
+    <dimen name="config_rounded_mask_size_top">@*android:dimen/rounded_corner_radius_top</dimen>
+    <dimen name="config_rounded_mask_size_bottom">@*android:dimen/rounded_corner_radius_top</dimen>
 </resources>
